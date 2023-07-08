@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node Server.js"
+    "start": "node Server.js",
+    "build": "npm install",
+    "dev": "node server.js"
   },
   "author": "preethi",
   "license": "ISC",
