@@ -1,3 +1,3 @@
 export const env ={
-     api :"http://localhost:8001"
+     api :"https://reminder-e8gv.onrender.com"
 }
