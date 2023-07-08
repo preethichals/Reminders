@@ -1,5 +1,5 @@
 {
-  "name": "notes_maker_backend",
+  "name": "server",
   "version": "1.0.0",
   "description": "notes_maker_backend app using mongoose and express js",
   "main": "Server.js",
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node Server.js"
   },
-  "author": "Raghul",
+  "author": "preethi",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.0",
