@@ -9,7 +9,7 @@ const userRouter = require('./src/Routes/userRouter')
 App.use(express.json());
 App.use(express.urlencoded({ extended: true }));
 App.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'https://startling-unicorn-e24d45.netlify.app'
   }));
 
 //Routes;
