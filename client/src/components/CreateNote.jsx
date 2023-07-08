@@ -64,7 +64,7 @@ function CreateNote() {
     <>
       <div className='container bg-dashboard'>
         <div className="d-flex align-items-center justify-content-center pt-5 mb-4">
-          <h1 className="h3 mb-0 text-dark-800"> + Note</h1>
+          <h1 className="h3 mb-0 text-dark-800"> Create Note</h1>
         </div>
         <form onSubmit={formik.handleSubmit}>
           <div className='row '>
