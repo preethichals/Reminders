@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+/* width*/
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #898989;
+}
+
+
+.input-error {
+  border: 1px solid rgb(167, 44, 44);
+}
+
+body {
+  color: #242323 !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+.bg-dashboard{
+  background: #e5e2dc;
+  width: 100vw;
+  height: 100vh;
+}
+.bg-hero {
+  background-image: url("./Images/diary-bg.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.transp {
+  backdrop-filter: blur(30px) !important;
+  background: #e9e4e460 !important;
+  color: #262222 !important;
+  box-shadow: 12px 15px 8px rgb(#070606) !important;
+  border-radius: 20px;
+}
+.transp1 {
+  backdrop-filter: blur(15px) !important;
+  background: #c4d0cc97 !important;
+  color: rgb(38, 34, 34) !important;
+  box-shadow: 12px 15px 8px rgb(#070606) !important;
+  border-radius: 10px;
+}
+
+.btn-login{
+  width: 8rem;
+  display: flex;
+  justify-content: center;
+}
+.bg-title {
+  background-color: #f0f0f0;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(0, 140, 255);
+}
+.fontx{
+  font-family: 'Montserrat', sans-serif;
+}
+.letter-spacing1{
+  letter-spacing: 0.5rem;
+}
+.letter-spacing2{
+  letter-spacing: 1rem;
+}
+
+.mynav {
+  background-color: #000000 !important;
+  width: 100%;
+  top:0;
+  transition: top 0.3s;
+  height: 5.5rem;
+}
+
+/* .mynav .navbar-brand .navbar-nav{
+    float: left;
+    display: block;
+    
+  } */
+.nav-link {
+  color: #f4efef !important;
+  margin: auto 0 ;
+}
+
+.navbar-brand {
+  color: #ffffff !important;
+  font-family: 'Caveat', cursive;
+}
+
+#top {
+  font-family: 'Caveat', cursive !important;
+}
+
+#Content {
+  font-size: 40px;
+  color: #ffc200;
+  font-weight: 800;
+}
+
+#navBut {
+  background-color: #c1bcbc;
+}
+
+nav ul li {
+  margin: 10px 20px;
+}
+
+.navbar-nav {
+  padding: 10px 10%;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  margin: 0px auto;
+  padding-left: 2rem;
+  font-weight: 800;
+  font-family: 'Caveat', cursive;
+}
+
+nav ul li a {
+  color: #2e2b2b;
+
+  position: relative;
+}
+
+nav ul li a::after {
+  content: '';
+  width: 0%;
+  height: 4px;
+  border-radius: 1rem;
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  bottom: -3%;
+
+}
+
+nav ul li a:hover::after {
+  width: 95%;
+  transition: 0.5s;
+}
+
+.cards {
+  border-radius: 4px;
+
+  box-shadow: 0 6px 10px rgba(5, 174, 186, 0.08), 0 0 6px rgba(0, 0, 0, .05);
+  transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+  cursor: pointer;
+}
+
+.cards:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(0, 0, 0);
+  opacity: 1; /* Firefox */
+}
