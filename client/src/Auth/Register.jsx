@@ -41,7 +41,6 @@ function Register() {
 
   return (
     <div className="container-fluid bg-hero login flex justify-content-center pt-5">
-            <h4 className='container text-center text-uppercase letter-spacing2 bg-light py-4 transp1 fw-bolder border-1'> Personal Notes</h4>
       <span className="row d-flex align-content-center justify-content-center ">
         <span className=" col-md-6 pt-5 ">
           <div className="card o-hidden border-1 shadow-lg  mt-2 transp pt-4 d-flex align-content-center">
