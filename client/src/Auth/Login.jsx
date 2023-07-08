@@ -82,7 +82,7 @@ function Login() {
                     <form className="user" onSubmit={formik.handleSubmit}>
                       <div className="form-group pb-3">
                         <input
-                          className={`form-control int bg-transparent text-white ${
+                          className={`form-control int bg-transparent ${
                             formik.errors.email ? `input-error` : ``
                           }`}
                           id="exampleInputEmail"
@@ -98,7 +98,7 @@ function Login() {
                       </div>
                       <div className="form-group pb-4">
                         <input
-                          className={`form-control int bg-transparent text-white ${
+                          className={`form-control int bg-transparent ${
                             formik.errors.password ? `input-error` : ``
                           }`}
                           id="exampleInputPassword"

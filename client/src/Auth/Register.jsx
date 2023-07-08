@@ -57,7 +57,7 @@ function Register() {
                     <form className="user" onSubmit={formik.handleSubmit}>
                       <div className="form-group pb-3">
                         <input
-                          className={`form-control int bg-transparent text-white ${
+                          className={`form-control int bg-transparent ${
                             formik.errors.username ? `input-error` : ``
                           }`}
                           S
@@ -73,7 +73,7 @@ function Register() {
                       </div>
                       <div className="form-group pb-3">
                         <input
-                          className={`form-control int bg-transparent text-white ${
+                          className={`form-control int bg-transparent ${
                             formik.errors.email ? `input-error` : ``
                           }`}
                           id="exampleInputEmail"
@@ -89,7 +89,7 @@ function Register() {
                       </div>
                       <div className="form-group pb-4">
                         <input
-                          className={`form-control int bg-transparent text-white ${
+                          className={`form-control int bg-transparent ${
                             formik.errors.password ? `input-error` : ``
                           }`}
                           id="exampleInputPassword"
